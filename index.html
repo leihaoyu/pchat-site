@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PChat — Connect Your City</title>
-  <meta name="description" content="PChat is a fast, secure messaging app built for local city communities. Discover people nearby, join neighborhood groups, and stay connected.">
+  <title data-i18n="index.title">PChat — Connect Your City</title>
+  <meta name="description" content="PChat is a fast, secure messaging app built for local city communities.">
   <link rel="stylesheet" href="assets/style.css">
   <link rel="icon" type="image/png" href="assets/favicon.png">
 </head>
@@ -13,25 +13,25 @@
 <nav>
   <a class="logo" href="index.html">P<span>Chat</span></a>
   <ul class="nav-links">
-    <li><a href="#features">Features</a></li>
-    <li><a href="#download">Download</a></li>
-    <li><a href="privacy.html">Privacy</a></li>
-    <li><a href="tos.html">Terms</a></li>
+    <li><a href="#features" data-i18n="nav.features">Features</a></li>
+    <li><a href="#download" data-i18n="nav.download">Download</a></li>
+    <li><a href="privacy.html" data-i18n="nav.privacy">Privacy</a></li>
+    <li><a href="tos.html" data-i18n="nav.terms">Terms</a></li>
   </ul>
 </nav>
 
 <!-- Hero -->
 <section class="hero">
   <div class="hero-content">
-    <h1>Your <span class="city">City</span>,<br>Your <span class="highlight">Community</span></h1>
-    <p>PChat is a fast, secure messenger designed for local connections. Discover neighbors, join city groups, and build real community — right where you live.</p>
+    <h1 data-i18n="index.hero.h1">Your <span class="city">City</span>,<br>Your <span class="highlight">Community</span></h1>
+    <p data-i18n="index.hero.p">PChat is a fast, secure messenger designed for local connections. Discover neighbors, join city groups, and build real community — right where you live.</p>
     <div class="hero-buttons" id="download">
       <a class="btn btn-primary" href="#">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
-        App Store
+        <span data-i18n="index.hero.appstore">App Store</span>
       </a>
-      <a class="btn btn-outline" href="#">
-        Learn More
+      <a class="btn btn-outline" href="#features">
+        <span data-i18n="index.hero.learn">Learn More</span>
       </a>
     </div>
   </div>
@@ -39,60 +39,61 @@
 
 <!-- Features -->
 <section class="features" id="features">
-  <h2 class="section-title">Built for Local Living</h2>
-  <p class="section-subtitle">More than a messaging app — PChat is your digital neighborhood, connecting you with the people and places around you.</p>
+  <h2 class="section-title" data-i18n="index.feat.title">Built for Local Living</h2>
+  <p class="section-subtitle" data-i18n="index.feat.sub">More than a messaging app — PChat is your digital neighborhood, connecting you with the people and places around you.</p>
 
   <div class="features-grid">
     <div class="feature-card">
       <span class="feature-icon">📍</span>
-      <h3>City Communities</h3>
-      <p>Join groups based on your neighborhood, city, or interests. Discover local events, share recommendations, and never miss what's happening nearby.</p>
+      <h3 data-i18n="index.f1.h">City Communities</h3>
+      <p data-i18n="index.f1.p">Join groups based on your neighborhood, city, or interests. Discover local events, share recommendations, and never miss what's happening nearby.</p>
     </div>
     <div class="feature-card">
       <span class="feature-icon">🔒</span>
-      <h3>Private & Secure</h3>
-      <p>End-to-end encrypted secret chats, self-destructing messages, and full control over your data. Your conversations stay between you and the people you trust.</p>
+      <h3 data-i18n="index.f2.h">Private & Secure</h3>
+      <p data-i18n="index.f2.p">End-to-end encrypted secret chats, self-destructing messages, and full control over your data.</p>
     </div>
     <div class="feature-card">
       <span class="feature-icon">⚡</span>
-      <h3>Lightning Fast</h3>
-      <p>Messages delivered instantly. Send texts, voice messages, photos, videos, and files of any size with zero lag — even on slow networks.</p>
+      <h3 data-i18n="index.f3.h">Lightning Fast</h3>
+      <p data-i18n="index.f3.p">Messages delivered instantly. Send texts, voice messages, photos, videos, and files of any size with zero lag.</p>
     </div>
     <div class="feature-card">
       <span class="feature-icon">🏘️</span>
-      <h3>Neighborhood Groups</h3>
-      <p>Create or join groups for your apartment complex, street, or district. Coordinate with neighbors, share alerts, and build stronger communities.</p>
+      <h3 data-i18n="index.f4.h">Neighborhood Groups</h3>
+      <p data-i18n="index.f4.p">Create or join groups for your apartment complex, street, or district.</p>
     </div>
     <div class="feature-card">
       <span class="feature-icon">🎙️</span>
-      <h3>Voice & Calls</h3>
-      <p>Crystal-clear voice messages and high-quality calls. Stay in touch hands-free while you're on the move around your city.</p>
+      <h3 data-i18n="index.f5.h">Voice & Calls</h3>
+      <p data-i18n="index.f5.p">Crystal-clear voice messages and high-quality calls. Stay in touch hands-free while you're on the move.</p>
     </div>
     <div class="feature-card">
       <span class="feature-icon">🌐</span>
-      <h3>Multi-Language</h3>
-      <p>PChat speaks your language. Full support for English, Simplified Chinese, Traditional Chinese and more — making local communities truly inclusive.</p>
+      <h3 data-i18n="index.f6.h">Multi-Language</h3>
+      <p data-i18n="index.f6.p">PChat speaks your language. Full support for English, Simplified Chinese, Traditional Chinese and more.</p>
     </div>
   </div>
 </section>
 
 <!-- CTA -->
 <section class="cta">
-  <h2>Start Connecting Locally</h2>
-  <p>Download PChat and discover your city community today.</p>
-  <a class="btn btn-primary" href="#">Download on the App Store</a>
+  <h2 data-i18n="index.cta.h">Start Connecting Locally</h2>
+  <p data-i18n="index.cta.p">Download PChat and discover your city community today.</p>
+  <a class="btn btn-primary" href="#" data-i18n="index.cta.btn">Download on the App Store</a>
 </section>
 
 <!-- Footer -->
 <footer>
   <ul class="footer-links">
-    <li><a href="privacy.html">Privacy Policy</a></li>
-    <li><a href="tos.html">Terms of Service</a></li>
-    <li><a href="faq.html">FAQ</a></li>
-    <li><a href="mailto:support@pchat.app">Contact</a></li>
+    <li><a href="privacy.html" data-i18n="footer.privacy">Privacy Policy</a></li>
+    <li><a href="tos.html" data-i18n="footer.terms">Terms of Service</a></li>
+    <li><a href="faq.html" data-i18n="footer.faq">FAQ</a></li>
+    <li><a href="mailto:info@visionarycreativeph.com" data-i18n="footer.contact">Contact</a></li>
   </ul>
-  <p class="copyright">&copy; 2025 PChat. All rights reserved.</p>
+  <p class="copyright" data-i18n="footer.copyright">&copy; 2025 PChat. All rights reserved.</p>
 </footer>
 
+<script src="assets/i18n.js"></script>
 </body>
 </html>
